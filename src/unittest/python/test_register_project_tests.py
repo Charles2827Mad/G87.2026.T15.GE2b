@@ -387,7 +387,7 @@ class TestRegisterProject(unittest.TestCase):
             '{\n  "PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n  "FILENAME": "TstFile4.pdf"\n}}'
         )
 
-    def test_TC48(self):
+    def test_tc_48(self):
         self._assert_invalid_case(
             "desktop/register_document/modification/tc48-invalid_pdf.json",
             '/\n'
@@ -396,7 +396,7 @@ class TestRegisterProject(unittest.TestCase):
             '}'
         )
 
-    def test_TC49(self):
+    def test_tc_49(self):
         self._assert_invalid_case(
             "desktop/register_document/modification/tc49-invalid_pdf.json",
             '{\n'
@@ -405,7 +405,7 @@ class TestRegisterProject(unittest.TestCase):
             '}'
         )
 
-    def test_TC50(self):
+    def test_tc_50(self):
         self._assert_invalid_case(
             "desktop/register_document/modification/tc50-invalid_pdf.json",
             '{\n'
@@ -414,7 +414,7 @@ class TestRegisterProject(unittest.TestCase):
             '}'
         )
 
-    def test_TC51(self):
+    def test_tc_51(self):
         self._assert_invalid_case(
             "desktop/register_document/modification/tc51-invalid_pdf.json",
             '{\n'
@@ -423,7 +423,7 @@ class TestRegisterProject(unittest.TestCase):
             '}'
         )
 
-    def test_TC52(self):
+    def test_tc_52(self):
         self._assert_invalid_case(
             "desktop/register_document/modification/tc52-invalid_pdf.json",
             '{\n'
@@ -432,7 +432,7 @@ class TestRegisterProject(unittest.TestCase):
             '}'
         )
 
-    def test_TC53(self):
+    def test_tc_53(self):
         self._assert_invalid_case(
             "desktop/register_document/modification/tc53-invalid_pdf.json",
             '{\n'
@@ -441,7 +441,7 @@ class TestRegisterProject(unittest.TestCase):
             '}'
         )
 
-    def test_TC54(self):
+    def test_tc_54(self):
         self._assert_invalid_case(
             "desktop/register_document/modification/tc54-invalid_pdf.json",
             '{\n'
@@ -450,7 +450,7 @@ class TestRegisterProject(unittest.TestCase):
             '}'
         )
 
-    def test_TC55(self):
+    def test_tc_55(self):
         self._assert_invalid_case(
             "desktop/register_document/modification/tc55-invalid_pdf.json",
             '{\n'
@@ -459,7 +459,7 @@ class TestRegisterProject(unittest.TestCase):
             '}'
         )
 
-    def test_TC56(self):
+    def test_tc_56(self):
         self._assert_invalid_case(
             "desktop/register_document/modification/tc56-invalid_pdf.json",
             '{\n'
@@ -468,7 +468,7 @@ class TestRegisterProject(unittest.TestCase):
             '}'
         )
 
-    def test_TC57(self):
+    def test_tc_57(self):
         self._assert_invalid_case(
             "desktop/register_document/modification/tc57-invalid_pdf.json",
             '{\n'
@@ -477,7 +477,7 @@ class TestRegisterProject(unittest.TestCase):
             '}'
         )
 
-    def test_TC58(self):
+    def test_tc_58(self):
         self._assert_invalid_case(
             "desktop/register_document/modification/tc58-invalid_pdf.json",
             '{\n'
@@ -486,7 +486,7 @@ class TestRegisterProject(unittest.TestCase):
             '}'
         )
 
-    def test_TC59(self):
+    def test_tc_59(self):
         self._assert_invalid_case(
             "desktop/register_document/modification/tc59-invalid_pdf.json",
             '{\n'
@@ -495,7 +495,7 @@ class TestRegisterProject(unittest.TestCase):
             '}'
         )
 
-    def test_TC60(self):
+    def test_tc_60(self):
         self._assert_invalid_case(
             "desktop/register_document/modification/tc60-invalid_pdf.json",
             '{\n'
@@ -504,7 +504,7 @@ class TestRegisterProject(unittest.TestCase):
             '}'
         )
 
-    def test_TC61(self):
+    def test_tc_61(self):
         self._assert_invalid_case(
             "desktop/register_document/modification/tc61-invalid_pdf.json",
             '{\n'
@@ -513,7 +513,7 @@ class TestRegisterProject(unittest.TestCase):
             '}'
         )
 
-    def test_TC62(self):
+    def test_tc_62(self):
         self._assert_invalid_case(
             "desktop/register_document/modification/tc62-invalid_pdf.json",
             '{\n'
@@ -522,7 +522,7 @@ class TestRegisterProject(unittest.TestCase):
             '}'
         )
 
-    def test_TC63(self):
+    def test_tc_63(self):
         self._assert_invalid_case(
             "desktop/register_document/modification/tc63-invalid_pdf.json",
             '{\n'
@@ -531,7 +531,7 @@ class TestRegisterProject(unittest.TestCase):
             '}'
         )
 
-    def test_TC64(self):
+    def test_tc_64(self):
         self._assert_invalid_case(
             "desktop/register_document/modification/tc64-invalid_pdf.json",
             '{\n'
@@ -540,7 +540,7 @@ class TestRegisterProject(unittest.TestCase):
             '}'
         )
 
-    def test_TC65(self):
+    def test_tc_65(self):
         self._assert_invalid_case(
             "desktop/register_document/modification/tc65-invalid_pdf.json",
             '{\n'
@@ -549,7 +549,7 @@ class TestRegisterProject(unittest.TestCase):
             '}'
         )
 
-    def test_TC66(self):
+    def test_tc_66(self):
         self._assert_invalid_case(
             "desktop/register_document/modification/tc66-invalid_docx.json",
             '{\n'
@@ -558,7 +558,7 @@ class TestRegisterProject(unittest.TestCase):
             '}'
         )
 
-    def test_TC67(self):
+    def test_tc_67(self):
         self._assert_invalid_case(
             "desktop/register_document/modification/tc67-invalid_xlsx.json",
             '{\n'
@@ -567,7 +567,7 @@ class TestRegisterProject(unittest.TestCase):
             '}'
         )
 
-    def test_TC68(self):
+    def test_tc_68(self):
         self._assert_invalid_case(
             "desktop/register_document/modification/tc68-invalid_pdf.json",
             '{\n'
@@ -576,7 +576,7 @@ class TestRegisterProject(unittest.TestCase):
             '}'
         )
 
-    def test_TC69(self):
+    def test_tc_69(self):
         self._assert_invalid_case(
             "desktop/register_document/modification/tc69-invalid_pdf.json",
             '{\n'
