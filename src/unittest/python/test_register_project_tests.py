@@ -501,5 +501,69 @@ class TestRegisterProject(unittest.TestCase):
             '}'
         )
 
+    def test_TC63(self):
+        self._assert_invalid_case(
+            "desktop/register_document/modification/tc63-invalid_pdf.json",
+            '{\n'
+            '"PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n'
+            '"FILENAME": ^TstFile4.pdf"\n'
+            '}'
+        )
+
+    def test_TC64(self):
+        self._assert_invalid_case(
+            "desktop/register_document/modification/tc64-invalid_pdf.json",
+            '{\n'
+            '"PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n'
+            '"FILENAME": "TstFile433.pdf"\n'
+            '}'
+        )
+
+    def test_TC65(self):
+        self._assert_invalid_case(
+            "desktop/register_document/modification/tc65-invalid_pdf.json",
+            '{\n'
+            '"PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n'
+            '"FILENAME": "TstFile4.pdd"\n'
+            '}'
+        )
+
+    def test_TC66(self):
+        self._assert_invalid_case(
+            "desktop/register_document/modification/tc66-invalid_docx.json",
+            '{\n'
+            '"PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n'
+            '"FILENAME": "TstFile4.docy"\n'
+            '}'
+        )
+
+    def test_TC67(self):
+        self._assert_invalid_case(
+            "desktop/register_document/modification/tc67-invalid_xlsx.json",
+            '{\n'
+            '"PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n'
+            '"FILENAME": "TstFile4.xlzx"\n'
+            '}'
+        )
+
+    def test_TC68(self):
+        self._assert_invalid_case(
+            "desktop/register_document/modification/tc68-invalid_pdf.json",
+            '{\n'
+            '"PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n'
+            '"FILENAME": "TstFile4.pdf*\n'
+            '}'
+        )
+
+    def test_TC69(self):
+        self._assert_invalid_case(
+            "desktop/register_document/modification/tc69-invalid_pdf.json",
+            '{\n'
+            '"PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n'
+            '"FILENAME": "TstFile4.pdf"\n'
+            '|'
+        )
+
+
 if __name__ == '__main__':
     unittest.main()
