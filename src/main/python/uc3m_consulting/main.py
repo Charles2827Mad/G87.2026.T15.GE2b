@@ -1,6 +1,6 @@
 """main.py, used to test and generate sample hashes
 to compare against valid test cases"""
-import project_document
+from project_document import ProjectDocument
 
 def show_sha256():
     """Function used to generate SHA-256 sample hashes for test cases."""
