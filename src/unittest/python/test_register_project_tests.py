@@ -1,8 +1,8 @@
 """class for testing the register_order method"""
 import unittest
-from uc3m_consulting import EnterpriseManager
+from uc3m_consulting import EnterpriseManager, EnterpriseManagementException
 
-class MyTestCase(unittest.TestCase):
+class TestRegisterProject(unittest.TestCase):
     """class for testing the register_order method"""
     def test_something( self ):
         """dummy test"""
