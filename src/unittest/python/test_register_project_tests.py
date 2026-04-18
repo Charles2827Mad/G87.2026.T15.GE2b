@@ -6,14 +6,14 @@ from uc3m_consulting import EnterpriseManager, EnterpriseManagementException
 class TestRegisterProject(unittest.TestCase):
     """class for testing the register_document method"""
     @staticmethod
-    def _write_test_file(self, file_path: str, content: str):
+    def _write_test_file(file_path: str, content: str):
         """Creates the test file with the provided content."""
         os.makedirs(os.path.dirname(file_path), exist_ok=True)
         with open(file_path, "w", encoding="utf-8") as file:
             file.write(content)
 
     @staticmethod
-    def _delete_test_file(self, file_path: str):
+    def _delete_test_file(file_path: str):
         """Deletes the test file if it exists."""
         if os.path.exists(file_path):
             os.remove(file_path)

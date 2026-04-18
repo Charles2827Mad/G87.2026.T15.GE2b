@@ -1,11 +1,7 @@
-
-Running tests...
-----------------------------------------------------------------------
-E
-======================================================================
-ERROR [0.002s]: test_register_project_tests (unittest.loader._FailedTest.test_register_project_tests)
-----------------------------------------------------------------------
-Traceback (most recent call last):
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="unittest.loader._FailedTest-20260418175256" tests="1" file="unittest/loader.py" time="0.002" timestamp="2026-04-18T17:52:56" failures="0" errors="1" skipped="0">
+	<testcase classname="unittest.loader._FailedTest" name="test_register_project_tests" time="0.002" timestamp="2026-04-18T17:52:56">
+		<error type="ImportError" message="Failed to import test module: test_register_project_tests&#10;Traceback (most recent call last):&#10;  File &quot;/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/loader.py&quot;, line 137, in loadTestsFromName&#10;    module = __import__(module_name)&#10;  File &quot;/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py&quot;, line 4, in &lt;module&gt;&#10;    from uc3m_consulting import EnterpriseManager, EnterpriseManagementException&#10;  File &quot;/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/main/python/uc3m_consulting/__init__.py&quot;, line 4, in &lt;module&gt;&#10;    from .enterprise_manager import EnterpriseManager&#10;  File &quot;/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/main/python/uc3m_consulting/enterprise_manager.py&quot;, line 2, in &lt;module&gt;&#10;    from uc3m_consulting import EnterpriseManagementException&#10;ImportError: cannot import name 'EnterpriseManagementException' from partially initialized module 'uc3m_consulting' (most likely due to a circular import) (/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/main/python/uc3m_consulting/__init__.py)&#10;"><![CDATA[Traceback (most recent call last):
   File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
     yield
   File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
@@ -29,10 +25,6 @@ Traceback (most recent call last):
     from uc3m_consulting import EnterpriseManagementException
 ImportError: cannot import name 'EnterpriseManagementException' from partially initialized module 'uc3m_consulting' (most likely due to a circular import) (/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/main/python/uc3m_consulting/__init__.py)
 
-
-----------------------------------------------------------------------
-Ran 1 test in 0.008s
-
-FAILED (errors=1)
-
-Generating XML reports...
+]]></error>
+	</testcase>
+</testsuite>

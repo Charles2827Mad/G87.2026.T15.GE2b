@@ -1,4 +1,5 @@
 """Module """
+from uc3m_consulting import EnterpriseManagementException
 
 class EnterpriseManager:
     """Class for providing the methods for managing the orders"""
@@ -13,4 +14,4 @@ class EnterpriseManager:
 
     @staticmethod
     def register_document(input_file: str):
-        pass
+        raise EnterpriseManagementException("Not implemented")
