@@ -1,0 +1,14 @@
+"""main.py, used to test and generate sample hashes
+to compare against valid test cases"""
+import project_document
+
+def show_sha256():
+    """Function used to generate SHA-256 sample hashes for test cases."""
+    obj = ProjectDocument(
+        "a1b8c3d4e3f60148293a4b0c6d5e1f90",
+        "TstFile4.pdf"
+    )
+    print(obj.document_signature)
+
+if __name__ == '__main__':
+    show_sha256()
