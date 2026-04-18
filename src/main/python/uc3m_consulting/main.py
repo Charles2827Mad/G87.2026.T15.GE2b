@@ -1,7 +1,9 @@
 """main.py, used to test and generate sample hashes
 to compare against valid test cases"""
 from project_document import ProjectDocument
+from freezegun import freeze_time
 
+@freeze_time("2024-01-28")
 def show_sha256():
     """Function used to generate SHA-256 sample hashes for test cases."""
     obj = ProjectDocument(

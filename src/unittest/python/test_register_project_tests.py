@@ -2,6 +2,7 @@
 import unittest
 import os
 from uc3m_consulting import EnterpriseManager, EnterpriseManagementException
+from freezegun import freeze_time
 
 class TestRegisterProject(unittest.TestCase):
     """class for testing the register_document method"""
@@ -45,6 +46,7 @@ class TestRegisterProject(unittest.TestCase):
         with self.assertRaises(EnterpriseManagementException):
             manager.register_document(file_path)
 
+    @freeze_time("2024-01-28")
     def test_tc_1(self):
         self._assert_valid_case(
             "desktop/register_document/valid/tc1-valid_pdf.json",
@@ -52,9 +54,10 @@ class TestRegisterProject(unittest.TestCase):
             '"PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n'
             '"FILENAME": "TstFile4.pdf"\n'
             '}',
-            "3c296a4a2ebe42d02236ac7fa24f7156676ba60cc5ccc9309d3f2bd4f0b112ad"
+            "2a295d3ed499f69427cef469eab0f4e8b0eaf2afb6e2e196eb5808b6037ba33e"
         )
 
+    @freeze_time("2024-01-28")
     def test_tc_2(self):
         self._assert_valid_case(
             "desktop/register_document/valid/tc2-valid_docx.json",
@@ -62,17 +65,18 @@ class TestRegisterProject(unittest.TestCase):
             '"PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n'
             '"FILENAME": "TstFile4.docx"\n'
             '}',
-            "14a957d0b6dd2235f404a6165cbd51329b54e55c40c0c71fd7d064e8b32142f9"
+            "79159604c1299c8b3d41a685412b483d47fee3b371b786eadee5dc1b43e95cca"
         )
 
+    @freeze_time("2024-01-28")
     def test_tc_3(self):
         self._assert_valid_case(
             "desktop/register_document/valid/tc2-valid_docx.json",
             '{\n'
             '"PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n'
-            '"FILENAME": "TstFile4.docx"\n'
+            '"FILENAME": "TstFile4.xlsx"\n'
             '}',
-            "14a957d0b6dd2235f404a6165cbd51329b54e55c40c0c71fd7d064e8b32142f9"
+            "c0ff34202d490ea0276772a7b5d64383aadf0051e9c98cda61b3816348c26920"
         )
 
     def test_tc_4(self):
