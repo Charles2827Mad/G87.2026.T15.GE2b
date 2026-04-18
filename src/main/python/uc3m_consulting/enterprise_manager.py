@@ -1,5 +1,6 @@
 """Module """
 import json
+import re
 from uc3m_consulting.enterprise_management_exception import EnterpriseManagementException
 
 class EnterpriseManager:
@@ -34,6 +35,24 @@ class EnterpriseManager:
         if "PROJECT_ID" not in input_data or "FILENAME" not in input_data:
             raise EnterpriseManagementException(
                 "JSON does not have the expected structure"
+            )
+
+        project_id = input_data["PROJECT_ID"]
+        file_name = input_data["FILENAME"]
+
+        if not isinstance(project_id, str) or not isinstance(file_name, str):
+            raise EnterpriseManagementException(
+                "JSON data has no valid values"
+            )
+
+        if not re.fullmatch(r"[0-9a-fA-F]{32}", project_id):
+            raise EnterpriseManagementException(
+                "JSON data has no valid values"
+            )
+
+        if not re.fullmatch(r"[A-Za-z0-9]{8}(\.pdf|\.docx|\.xlsx)", file_name):
+            raise EnterpriseManagementException(
+                "JSON data has no valid values"
             )
 
         return input_data
