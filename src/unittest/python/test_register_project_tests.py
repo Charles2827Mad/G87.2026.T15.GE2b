@@ -36,16 +36,16 @@ class TestRegisterProject(unittest.TestCase):
         with self.assertRaises(EnterpriseManagementException):
             manager.register_document(file_path)
 
-    def test_TC1(self):
+    def test_tc_1(self):
         pass
 
-    def test_TC2(self):
+    def test_tc_2(self):
         pass
 
-    def test_TC3(self):
+    def test_tc_3(self):
         pass
 
-    def test_TC4(self):
+    def test_tc_4(self):
         self._assert_invalid_case(
             "desktop/register_document/deletion/tc4-invalid_pdf.json",
             '"PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n'
@@ -53,7 +53,7 @@ class TestRegisterProject(unittest.TestCase):
             '}'
         )
 
-    def test_TC5(self):
+    def test_tc_5(self):
         self._assert_invalid_case(
             "desktop/register_document/deletion/tc5-invalid_pdf.json",
             '{\n'
@@ -61,7 +61,7 @@ class TestRegisterProject(unittest.TestCase):
             '}'
         )
 
-    def test_TC6( self ):
+    def test_tc_6( self ):
         self._assert_invalid_case(
             "desktop/register_document/deletion/tc6-invalid_pdf.json",
             '{\n'
@@ -70,7 +70,7 @@ class TestRegisterProject(unittest.TestCase):
             '}'
         )
 
-    def test_TC7( self ):
+    def test_tc_7( self ):
         self._assert_invalid_case(
             "desktop/register_document/deletion/tc7-invalid_pdf.json",
             '{\n'
@@ -79,7 +79,7 @@ class TestRegisterProject(unittest.TestCase):
             '}'
         )
 
-    def test_TC8( self ):
+    def test_tc_8( self ):
         self._assert_invalid_case(
             "desktop/register_document/deletion/tc8-invalid_pdf.json",
             '{\n'
@@ -88,7 +88,7 @@ class TestRegisterProject(unittest.TestCase):
             '}'
         )
 
-    def test_TC9( self ):
+    def test_tc_9( self ):
         self._assert_invalid_case(
             "desktop/register_document/deletion/tc9-invalid_pdf.json",
             '{\n'
@@ -97,7 +97,7 @@ class TestRegisterProject(unittest.TestCase):
             '}'
         )
 
-    def test_TC10( self ):
+    def test_tc_10( self ):
         self._assert_invalid_case(
             "desktop/register_document/deletion/tc10-invalid_pdf.json",
             '{\n'
@@ -106,7 +106,7 @@ class TestRegisterProject(unittest.TestCase):
             '}'
         )
 
-    def test_TC11( self ):
+    def test_tc_11( self ):
         self._assert_invalid_case(
             "desktop/register_document/deletion/tc11-invalid_pdf.json",
             '{\n'
@@ -115,7 +115,7 @@ class TestRegisterProject(unittest.TestCase):
             '}'
         )
 
-    def test_TC12(self):
+    def test_tc_12(self):
         self._assert_invalid_case(
             "desktop/register_document/deletion/tc12-invalid_pdf.json",
             '{\n'
@@ -124,7 +124,7 @@ class TestRegisterProject(unittest.TestCase):
             '}'
         )
 
-    def test_TC13(self):
+    def test_tc_13(self):
         self._assert_invalid_case(
             "desktop/register_document/deletion/tc13-invalid_pdf.json",
             '{\n'
@@ -133,7 +133,7 @@ class TestRegisterProject(unittest.TestCase):
             '}'
         )
 
-    def test_TC14(self):
+    def test_tc_14(self):
         self._assert_invalid_case(
             "desktop/register_document/deletion/tc14-invalid_pdf.json",
             '{\n'
@@ -141,7 +141,7 @@ class TestRegisterProject(unittest.TestCase):
             '}'
         )
 
-    def test_TC15(self):
+    def test_tc_15(self):
         self._assert_invalid_case(
             "desktop/register_document/deletion/tc15-invalid_pdf.json",
             '{\n'
@@ -150,7 +150,7 @@ class TestRegisterProject(unittest.TestCase):
             '}'
         )
 
-    def test_TC16(self):
+    def test_tc_16(self):
         self._assert_invalid_case(
             "desktop/register_document/deletion/tc16-invalid_pdf.json",
             '{\n'
@@ -159,7 +159,7 @@ class TestRegisterProject(unittest.TestCase):
             '}'
         )
 
-    def test_TC17(self):
+    def test_tc_17(self):
         self._assert_invalid_case(
             "desktop/register_document/deletion/tc17-invalid_pdf.json",
             '{\n'
@@ -168,7 +168,7 @@ class TestRegisterProject(unittest.TestCase):
             '}'
         )
 
-    def test_TC18(self):
+    def test_tc_18(self):
         self._assert_invalid_case(
             "desktop/register_document/deletion/tc18-invalid_pdf.json",
             '{\n'
@@ -177,7 +177,7 @@ class TestRegisterProject(unittest.TestCase):
             '}'
         )
 
-    def test_TC19(self):
+    def test_tc_19(self):
         self._assert_invalid_case(
             "desktop/register_document/deletion/tc19-invalid_pdf.json",
             '{\n'
@@ -186,7 +186,7 @@ class TestRegisterProject(unittest.TestCase):
             '}'
         )
 
-    def test_TC20(self):
+    def test_tc_20(self):
         self._assert_invalid_case(
             "desktop/register_document/deletion/tc20-invalid_pdf.json",
             '{\n'
@@ -195,7 +195,7 @@ class TestRegisterProject(unittest.TestCase):
             '}'
         )
 
-    def test_TC21(self):
+    def test_tc_21(self):
         self._assert_invalid_case(
             "desktop/register_document/deletion/tc21-invalid_pdf.json",
             '{\n'
@@ -204,7 +204,7 @@ class TestRegisterProject(unittest.TestCase):
             '}'
         )
 
-    def test_TC22(self):
+    def test_tc_22(self):
         self._assert_invalid_case(
             "desktop/register_document/deletion/tc22-invalid_pdf.json",
             '{\n'
@@ -213,7 +213,7 @@ class TestRegisterProject(unittest.TestCase):
             '}'
         )
 
-    def test_TC23(self):
+    def test_tc_23(self):
         self._assert_invalid_case(
             "desktop/register_document/deletion/tc23-invalid_pdf.json",
             '{\n'
@@ -221,146 +221,146 @@ class TestRegisterProject(unittest.TestCase):
             '"FILENAME": "TstFile4.pdf"\n'
         )
 
-    def test_TC24(self):
+    def test_tc_24(self):
         self._assert_invalid_case(
             "desktop/register_document/deletion/tc24-invalid_pdf.json",
             '{\n'
             '}\n'
         )
 
-    def test_TC25(self):
+    def test_tc_25(self):
         self._assert_invalid_case(
             "desktop/register_document/deletion/tc25-invalid_pdf.json",
             ''
         )
 
-    def test_TC26(self):
+    def test_tc_26(self):
         self._assert_invalid_case(
             'desktop/register_document/duplication/tc26-invalid_pdf.json',
             '{{\n  "PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n  "FILENAME": "TstFile4.pdf"\n}'
         )
 
-    def test_TC27(self):
+    def test_tc_27(self):
         self._assert_invalid_case(
             'desktop/register_document/duplication/tc27-invalid_pdf.json',
             '{\n  "PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90", "PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n  "FILENAME": "TstFile4.pdf"\n}'
         )
 
-    def test_TC28(self):
+    def test_tc_28(self):
         self._assert_invalid_case(
             'desktop/register_document/duplication/tc28-invalid_pdf.json',
             '{\n  ""PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n  "FILENAME": "TstFile4.pdf"\n}'
         )
 
-    def test_TC29(self):
+    def test_tc_29(self):
         self._assert_invalid_case(
             'desktop/register_document/duplication/tc29-invalid_pdf.json',
             '{\n  "PROJECT_IDPROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n  "FILENAME": "TstFile4.pdf"\n}'
         )
 
-    def test_TC30(self):
+    def test_tc_30(self):
         self._assert_invalid_case(
             'desktop/register_document/duplication/tc30-invalid_pdf.json',
             '{\n  "PROJECT_ID"": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n  "FILENAME": "TstFile4.pdf"\n}'
         )
 
-    def test_TC31(self):
+    def test_tc_31(self):
         self._assert_invalid_case(
             'desktop/register_document/duplication/tc31-invalid_pdf.json',
             '{\n  "PROJECT_ID":: "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n  "FILENAME": "TstFile4.pdf"\n}'
         )
 
-    def test_TC32(self):
+    def test_tc_32(self):
         self._assert_invalid_case(
             'desktop/register_document/duplication/tc32-invalid_pdf.json',
             '{\n  "PROJECT_ID": ""a1b8c3d4e3f60148293a4b0c6d5e1f90",\n  "FILENAME": "TstFile4.pdf"\n}'
         )
 
-    def test_TC33(self):
+    def test_tc_33(self):
         self._assert_invalid_case(
             'desktop/register_document/duplication/tc33-invalid_pdf.json',
             '{\n  "PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90a1b8c3d4e3f60148293a4b0c6d5e1f90",\n  "FILENAME": "TstFile4.pdf"\n}'
         )
 
-    def test_TC34(self):
+    def test_tc_34(self):
         self._assert_invalid_case(
             'desktop/register_document/duplication/tc34-invalid_pdf.json',
             '{\n  "PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90"",\n  "FILENAME": "TstFile4.pdf"\n}'
         )
 
-    def test_TC35(self):
+    def test_tc_35(self):
         self._assert_invalid_case(
             'desktop/register_document/duplication/tc35-invalid_pdf.json',
             '{\n  "PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",,\n  "FILENAME": "TstFile4.pdf"\n}'
         )
 
-    def test_TC36(self):
+    def test_tc_36(self):
         self._assert_invalid_case(
             'desktop/register_document/duplication/tc36-invalid_pdf.json',
             '{\n  "PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n  "FILENAME": "TstFile4.pdf", "FILENAME": "TstFile4.pdf"\n}'
         )
 
-    def test_TC37(self):
+    def test_tc_37(self):
         self._assert_invalid_case(
             'desktop/register_document/duplication/tc37-invalid_pdf.json',
             '{\n  "PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n  ""FILENAME": "TstFile4.pdf"\n}'
         )
 
-    def test_TC38(self):
+    def test_tc_38(self):
         self._assert_invalid_case(
             'desktop/register_document/duplication/tc38-invalid_pdf.json',
             '{\n  "PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n  "FILENAMEFILENAME": "TstFile4.pdf"\n}'
         )
 
-    def test_TC39(self):
+    def test_tc_39(self):
         self._assert_invalid_case(
             'desktop/register_document/duplication/tc39-invalid_pdf.json',
             '{\n  "PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n  "FILENAME"": "TstFile4.pdf"\n}'
         )
 
-    def test_TC40(self):
+    def test_tc_40(self):
         self._assert_invalid_case(
             'desktop/register_document/duplication/tc40-invalid_pdf.json',
             '{\n  "PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n  "FILENAME":: "TstFile4.pdf"\n}'
         )
 
-    def test_TC41(self):
+    def test_tc_41(self):
         self._assert_invalid_case(
             'desktop/register_document/duplication/tc41-invalid_pdf.json',
             '{\n  "PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n  "FILENAME": ""TstFile4.pdf"\n}'
         )
 
-    def test_TC42(self):
+    def test_tc_42(self):
         self._assert_invalid_case(
             'desktop/register_document/duplication/tc42-invalid_pdf.json',
             '{\n  "PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n  "FILENAME": "TstFile4TstFile4.pdf"\n}'
         )
 
-    def test_TC43(self):
+    def test_tc_43(self):
         self._assert_invalid_case(
             'desktop/register_document/duplication/tc43-invalid_pdf.json',
             '{\n  "PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n  "FILENAME": "TstFile4.pdf.pdf"\n}'
         )
 
-    def test_TC44(self):
+    def test_tc_44(self):
         self._assert_invalid_case(
             'desktop/register_document/duplication/tc44-invalid_pdf.json',
             '{\n  "PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n  "FILENAME": "TstFile4.docx.docx"\n}'
         )
 
-    def test_TC45(self):
+    def test_tc_45(self):
         self._assert_invalid_case(
             'desktop/register_document/duplication/tc45-invalid_pdf.json',
             '{\n  "PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n  "FILENAME": "TstFile4.xlsx.xlsx"\n}'
         )
 
-    def test_TC46(self):
+    def test_tc_46(self):
         self._assert_invalid_case(
             'desktop/register_document/duplication/tc46-invalid_pdf.json',
             '{\n  "PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n  "FILENAME": "TstFile4.pdf""\n}'
         )
 
-    def test_TC47(self):
+    def test_tc_47(self):
         self._assert_invalid_case(
             'desktop/register_document/duplication/tc47-invalid_pdf.json',
             '{\n  "PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n  "FILENAME": "TstFile4.pdf"\n}}'
