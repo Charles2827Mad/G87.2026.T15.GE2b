@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test_register_project_tests.TestRegisterProject-20260418171404" tests="30" file="test_register_project_tests.py" time="0.025" timestamp="2026-04-18T17:14:05" failures="0" errors="27" skipped="0">
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC1" time="0.000" timestamp="2026-04-18T17:14:04"/>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC2" time="0.000" timestamp="2026-04-18T17:14:04"/>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC3" time="0.000" timestamp="2026-04-18T17:14:05"/>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC10" time="0.002" timestamp="2026-04-18T17:14:04">
+		<error type="TypeError" message="TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 101, in test_TC10
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 24, in _assert_invalid_case
+    self._write_test_file(file_path, content)
+    ^^^^^^^^^^^^^^^
+TypeError: TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'
+]]></error>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC11" time="0.001" timestamp="2026-04-18T17:14:04">
+		<error type="TypeError" message="TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 110, in test_TC11
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 24, in _assert_invalid_case
+    self._write_test_file(file_path, content)
+    ^^^^^^^^^^^^^^^
+TypeError: TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'
+]]></error>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC12" time="0.001" timestamp="2026-04-18T17:14:04">
+		<error type="TypeError" message="TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 119, in test_TC12
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 24, in _assert_invalid_case
+    self._write_test_file(file_path, content)
+    ^^^^^^^^^^^^^^^
+TypeError: TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'
+]]></error>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC13" time="0.001" timestamp="2026-04-18T17:14:04">
+		<error type="TypeError" message="TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 128, in test_TC13
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 24, in _assert_invalid_case
+    self._write_test_file(file_path, content)
+    ^^^^^^^^^^^^^^^
+TypeError: TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'
+]]></error>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC14" time="0.001" timestamp="2026-04-18T17:14:04">
+		<error type="TypeError" message="TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 137, in test_TC14
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 24, in _assert_invalid_case
+    self._write_test_file(file_path, content)
+    ^^^^^^^^^^^^^^^
+TypeError: TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'
+]]></error>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC15" time="0.001" timestamp="2026-04-18T17:14:04">
+		<error type="TypeError" message="TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 145, in test_TC15
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 24, in _assert_invalid_case
+    self._write_test_file(file_path, content)
+    ^^^^^^^^^^^^^^^
+TypeError: TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'
+]]></error>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC16" time="0.001" timestamp="2026-04-18T17:14:04">
+		<error type="TypeError" message="TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 154, in test_TC16
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 24, in _assert_invalid_case
+    self._write_test_file(file_path, content)
+    ^^^^^^^^^^^^^^^
+TypeError: TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'
+]]></error>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC17" time="0.001" timestamp="2026-04-18T17:14:04">
+		<error type="TypeError" message="TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 163, in test_TC17
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 24, in _assert_invalid_case
+    self._write_test_file(file_path, content)
+    ^^^^^^^^^^^^^^^
+TypeError: TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'
+]]></error>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC18" time="0.001" timestamp="2026-04-18T17:14:04">
+		<error type="TypeError" message="TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 172, in test_TC18
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 24, in _assert_invalid_case
+    self._write_test_file(file_path, content)
+    ^^^^^^^^^^^^^^^
+TypeError: TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'
+]]></error>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC19" time="0.001" timestamp="2026-04-18T17:14:04">
+		<error type="TypeError" message="TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 181, in test_TC19
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 24, in _assert_invalid_case
+    self._write_test_file(file_path, content)
+    ^^^^^^^^^^^^^^^
+TypeError: TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'
+]]></error>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC20" time="0.001" timestamp="2026-04-18T17:14:05">
+		<error type="TypeError" message="TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 190, in test_TC20
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 24, in _assert_invalid_case
+    self._write_test_file(file_path, content)
+    ^^^^^^^^^^^^^^^
+TypeError: TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'
+]]></error>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC21" time="0.001" timestamp="2026-04-18T17:14:05">
+		<error type="TypeError" message="TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 199, in test_TC21
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 24, in _assert_invalid_case
+    self._write_test_file(file_path, content)
+    ^^^^^^^^^^^^^^^
+TypeError: TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'
+]]></error>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC22" time="0.001" timestamp="2026-04-18T17:14:05">
+		<error type="TypeError" message="TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 208, in test_TC22
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 24, in _assert_invalid_case
+    self._write_test_file(file_path, content)
+    ^^^^^^^^^^^^^^^
+TypeError: TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'
+]]></error>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC23" time="0.001" timestamp="2026-04-18T17:14:05">
+		<error type="TypeError" message="TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 217, in test_TC23
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 24, in _assert_invalid_case
+    self._write_test_file(file_path, content)
+    ^^^^^^^^^^^^^^^
+TypeError: TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'
+]]></error>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC24" time="0.001" timestamp="2026-04-18T17:14:05">
+		<error type="TypeError" message="TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 225, in test_TC24
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 24, in _assert_invalid_case
+    self._write_test_file(file_path, content)
+    ^^^^^^^^^^^^^^^
+TypeError: TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'
+]]></error>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC25" time="0.001" timestamp="2026-04-18T17:14:05">
+		<error type="TypeError" message="TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 232, in test_TC25
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 24, in _assert_invalid_case
+    self._write_test_file(file_path, content)
+    ^^^^^^^^^^^^^^^
+TypeError: TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'
+]]></error>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC26" time="0.001" timestamp="2026-04-18T17:14:05">
+		<error type="TypeError" message="TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 238, in test_TC26
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 24, in _assert_invalid_case
+    self._write_test_file(file_path, content)
+    ^^^^^^^^^^^^^^^
+TypeError: TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'
+]]></error>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC27" time="0.001" timestamp="2026-04-18T17:14:05">
+		<error type="TypeError" message="TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 244, in test_TC27
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 24, in _assert_invalid_case
+    self._write_test_file(file_path, content)
+    ^^^^^^^^^^^^^^^
+TypeError: TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'
+]]></error>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC28" time="0.001" timestamp="2026-04-18T17:14:05">
+		<error type="TypeError" message="TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 250, in test_TC28
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 24, in _assert_invalid_case
+    self._write_test_file(file_path, content)
+    ^^^^^^^^^^^^^^^
+TypeError: TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'
+]]></error>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC29" time="0.001" timestamp="2026-04-18T17:14:05">
+		<error type="TypeError" message="TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 256, in test_TC29
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 24, in _assert_invalid_case
+    self._write_test_file(file_path, content)
+    ^^^^^^^^^^^^^^^
+TypeError: TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'
+]]></error>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC30" time="0.001" timestamp="2026-04-18T17:14:05">
+		<error type="TypeError" message="TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 262, in test_TC30
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 24, in _assert_invalid_case
+    self._write_test_file(file_path, content)
+    ^^^^^^^^^^^^^^^
+TypeError: TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'
+]]></error>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC4" time="0.001" timestamp="2026-04-18T17:14:05">
+		<error type="TypeError" message="TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 49, in test_TC4
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 24, in _assert_invalid_case
+    self._write_test_file(file_path, content)
+    ^^^^^^^^^^^^^^^
+TypeError: TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'
+]]></error>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC5" time="0.001" timestamp="2026-04-18T17:14:05">
+		<error type="TypeError" message="TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 57, in test_TC5
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 24, in _assert_invalid_case
+    self._write_test_file(file_path, content)
+    ^^^^^^^^^^^^^^^
+TypeError: TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'
+]]></error>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC6" time="0.001" timestamp="2026-04-18T17:14:05">
+		<error type="TypeError" message="TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 65, in test_TC6
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 24, in _assert_invalid_case
+    self._write_test_file(file_path, content)
+    ^^^^^^^^^^^^^^^
+TypeError: TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'
+]]></error>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC7" time="0.001" timestamp="2026-04-18T17:14:05">
+		<error type="TypeError" message="TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 74, in test_TC7
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 24, in _assert_invalid_case
+    self._write_test_file(file_path, content)
+    ^^^^^^^^^^^^^^^
+TypeError: TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'
+]]></error>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC8" time="0.001" timestamp="2026-04-18T17:14:05">
+		<error type="TypeError" message="TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 83, in test_TC8
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 24, in _assert_invalid_case
+    self._write_test_file(file_path, content)
+    ^^^^^^^^^^^^^^^
+TypeError: TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'
+]]></error>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC9" time="0.001" timestamp="2026-04-18T17:14:05">
+		<error type="TypeError" message="TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 92, in test_TC9
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 24, in _assert_invalid_case
+    self._write_test_file(file_path, content)
+    ^^^^^^^^^^^^^^^
+TypeError: TestRegisterProject._write_test_file() missing 1 required positional argument: 'content'
+]]></error>
+	</testcase>
+</testsuite>

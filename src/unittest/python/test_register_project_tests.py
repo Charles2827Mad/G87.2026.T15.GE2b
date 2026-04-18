@@ -366,5 +366,77 @@ class TestRegisterProject(unittest.TestCase):
             '{\n  "PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n  "FILENAME": "TstFile4.pdf"\n}}'
         )
 
+    def test_TC48(self):
+        self._assert_invalid_case(
+            "desktop/register_document/modification/tc48-invalid_pdf.json",
+            '/\n'
+            '"PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n'
+            '"FILENAME": "TstFile4.pdf"\n'
+            '}'
+        )
+
+    def test_TC49(self):
+        self._assert_invalid_case(
+            "desktop/register_document/modification/tc49-invalid_pdf.json",
+            '{\n'
+            '"PROJ": "a1b8c3d4e3f60148293a4b0c6d5e1f9011",\n'
+            '"FILENAME": "TstFile4.pdf"\n'
+            '}'
+        )
+
+    def test_TC50(self):
+        self._assert_invalid_case(
+            "desktop/register_document/modification/tc50-invalid_pdf.json",
+            '{\n'
+            '*PROJECT_ID"": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n'
+            '"FILENAME": "TstFile4.pdf"\n'
+            '}'
+        )
+
+    def test_TC51(self):
+        self._assert_invalid_case(
+            "desktop/register_document/modification/tc51-invalid_pdf.json",
+            '{\n'
+            '"P": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n'
+            '"FILENAME": "TstFile4.pdf"\n'
+            '}'
+        )
+
+    def test_TC52(self):
+        self._assert_invalid_case(
+            "desktop/register_document/modification/tc52-invalid_pdf.json",
+            '{\n'
+            '"PROJECT_ID^: "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n'
+            '"FILENAME": "TstFile4.pdf"\n'
+            '}'
+        )
+
+    def test_TC53(self):
+        self._assert_invalid_case(
+            "desktop/register_document/modification/tc53-invalid_pdf.json",
+            '{\n'
+            '"PROJECT_ID"- "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n'
+            '"FILENAME": "TstFile4.pdf"\n'
+            '}'
+        )
+
+    def test_TC54(self):
+        self._assert_invalid_case(
+            "desktop/register_document/modification/tc54-invalid_pdf.json",
+            '{\n'
+            '"PROJECT_ID": *a1b8c3d4e3f60148293a4b0c6d5e1f90",\n'
+            '"FILENAME": "TstFile4.pdf"\n'
+            '}'
+        )
+
+    def test_TC55(self):
+        self._assert_invalid_case(
+            "desktop/register_document/modification/tc55-invalid_pdf.json",
+            '{\n'
+            '"PROJECT_ID": "a1b8c3d4e3f60",\n'
+            '"FILENAME": "TstFile4.pdf"\n'
+            '}'
+        )
+
 if __name__ == '__main__':
     unittest.main()
