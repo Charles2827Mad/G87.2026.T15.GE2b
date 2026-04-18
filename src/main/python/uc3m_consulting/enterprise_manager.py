@@ -2,6 +2,17 @@
 import json
 import re
 from uc3m_consulting.enterprise_management_exception import EnterpriseManagementException
+from uc3m_consulting.project_document import ProjectDocument
+
+def _reject_duplicated_keys(pairs):
+    result = {}
+    for key, value in pairs:
+        if key in result:
+            raise EnterpriseManagementException(
+                "JSON does not have the expected structure"
+            )
+        result[key] = value
+    return result
 
 class EnterpriseManager:
     """Class for providing the methods for managing the orders"""
@@ -19,7 +30,7 @@ class EnterpriseManager:
         try:
             with open(input_file, "r", encoding="utf-8") as file:
                 try:
-                    input_data = json.load(file)
+                    input_data = json.load(file, object_pairs_hook=_reject_duplicated_keys)
                 except json.JSONDecodeError as exc:
                     raise EnterpriseManagementException(
                         "The file is not JSON formatted"
@@ -55,4 +66,5 @@ class EnterpriseManager:
                 "JSON data has no valid values"
             )
 
-        return input_data
+        document = ProjectDocument(project_id, file_name)
+        return document.document_signature
