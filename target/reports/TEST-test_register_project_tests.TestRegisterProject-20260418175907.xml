@@ -1,0 +1,1719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test_register_project_tests.TestRegisterProject-20260418175907" tests="69" file="test_register_project_tests.py" time="0.082" timestamp="2026-04-18T17:59:08" failures="69" errors="0" skipped="0">
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC48" time="0.003" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 391, in test_TC48
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC49" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 400, in test_TC49
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC50" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 409, in test_TC50
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC51" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 418, in test_TC51
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC52" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 427, in test_TC52
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC53" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 436, in test_TC53
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC54" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 445, in test_TC54
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC55" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 454, in test_TC55
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC56" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 463, in test_TC56
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC57" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 472, in test_TC57
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC58" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 481, in test_TC58
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC59" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 490, in test_TC59
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC60" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 499, in test_TC60
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC61" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 508, in test_TC61
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC62" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 517, in test_TC62
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC63" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 526, in test_TC63
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC64" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 535, in test_TC64
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC65" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 544, in test_TC65
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC66" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 553, in test_TC66
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC67" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 562, in test_TC67
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC68" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 571, in test_TC68
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_TC69" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 580, in test_TC69
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_tc_1" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="'3c296a4a2ebe42d02236ac7fa24f7156676ba60cc5ccc9309d3f2bd4f0b112ad' != None"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 44, in test_tc_1
+    self.assertEqual(
+    ^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 907, in assertEqual
+    assertion_func(first, second, msg=msg)
+    ^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 900, in _baseAssertEqual
+    raise self.failureException(msg)
+    ^^^^^^^^^^^
+AssertionError: '3c296a4a2ebe42d02236ac7fa24f7156676ba60cc5ccc9309d3f2bd4f0b112ad' != None
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_tc_10" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 122, in test_tc_10
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_tc_11" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 131, in test_tc_11
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_tc_12" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 140, in test_tc_12
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_tc_13" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 149, in test_tc_13
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_tc_14" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 158, in test_tc_14
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_tc_15" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 166, in test_tc_15
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_tc_16" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 175, in test_tc_16
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_tc_17" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 184, in test_tc_17
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_tc_18" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 193, in test_tc_18
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_tc_19" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 202, in test_tc_19
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_tc_2" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="'14a957d0b6dd2235f404a6165cbd51329b54e55c40c0c71fd7d064e8b32142f9' != None"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 54, in test_tc_2
+    self.assertEqual(
+    ^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 907, in assertEqual
+    assertion_func(first, second, msg=msg)
+    ^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 900, in _baseAssertEqual
+    raise self.failureException(msg)
+    ^^^^^^^^^^^
+AssertionError: '14a957d0b6dd2235f404a6165cbd51329b54e55c40c0c71fd7d064e8b32142f9' != None
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_tc_20" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 211, in test_tc_20
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_tc_21" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 220, in test_tc_21
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_tc_22" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 229, in test_tc_22
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_tc_23" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 238, in test_tc_23
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_tc_24" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 246, in test_tc_24
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_tc_25" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 253, in test_tc_25
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_tc_26" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 259, in test_tc_26
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_tc_27" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 265, in test_tc_27
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_tc_28" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 271, in test_tc_28
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_tc_29" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 277, in test_tc_29
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_tc_3" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="'31d49ce57e610e2769b369f5b37428810a4d763d1238ca096f66eab5b0e0d7b8' != None"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 64, in test_tc_3
+    self.assertEqual(
+    ^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 907, in assertEqual
+    assertion_func(first, second, msg=msg)
+    ^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 900, in _baseAssertEqual
+    raise self.failureException(msg)
+    ^^^^^^^^^^^
+AssertionError: '31d49ce57e610e2769b369f5b37428810a4d763d1238ca096f66eab5b0e0d7b8' != None
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_tc_30" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 283, in test_tc_30
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_tc_31" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 289, in test_tc_31
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_tc_32" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 295, in test_tc_32
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_tc_33" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 301, in test_tc_33
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_tc_34" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 307, in test_tc_34
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_tc_35" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 313, in test_tc_35
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_tc_36" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 319, in test_tc_36
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_tc_37" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 325, in test_tc_37
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_tc_38" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 331, in test_tc_38
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_tc_39" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 337, in test_tc_39
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_tc_4" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 70, in test_tc_4
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_tc_40" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 343, in test_tc_40
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_tc_41" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 349, in test_tc_41
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_tc_42" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 355, in test_tc_42
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_tc_43" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 361, in test_tc_43
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_tc_44" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 367, in test_tc_44
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_tc_45" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 373, in test_tc_45
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_tc_46" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 379, in test_tc_46
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_tc_47" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 385, in test_tc_47
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_tc_5" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 78, in test_tc_5
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_tc_6" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 86, in test_tc_6
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_tc_7" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 95, in test_tc_7
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_tc_8" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 104, in test_tc_8
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+	<testcase classname="test_register_project_tests.TestRegisterProject" name="test_tc_9" time="0.001" timestamp="2026-04-18T17:59:08">
+		<failure type="AssertionError" message="EnterpriseManagementException not raised"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 113, in test_tc_9
+    self._assert_invalid_case(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 26, in _assert_invalid_case
+    with self.assertRaises(EnterpriseManagementException):
+    ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 263, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 200, in _raiseFailure
+    raise self.test_case.failureException(msg)
+    ^^^^^^^^^^^^^^^
+AssertionError: EnterpriseManagementException not raised
+]]></failure>
+	</testcase>
+</testsuite>

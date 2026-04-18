@@ -7,7 +7,7 @@ class TestRegisterProject(unittest.TestCase):
     """class for testing the register_document method"""
     @staticmethod
     def _write_test_file(file_path: str, content: str):
-        """Creates the test file with the provided content."""
+        """Creates the test file ith the provided content."""
         os.makedirs(os.path.dirname(file_path), exist_ok=True)
         with open(file_path, "w", encoding="utf-8") as file:
             file.write(content)

@@ -1,9 +1,9 @@
 
 Running tests...
 ----------------------------------------------------------------------
-E
+......................E..........E..........E........................
 ======================================================================
-ERROR [0.002s]: test_register_project_tests (unittest.loader._FailedTest.test_register_project_tests)
+ERROR [0.003s]: test_tc_1 (test_register_project_tests.TestRegisterProject.test_tc_1)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
   File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
@@ -14,25 +14,57 @@ Traceback (most recent call last):
   File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
     if method() is not None:
     ^^^^^^^^^^^^^^^
-  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/loader.py", line 33, in testFailure
-    raise self._exception
-    ^^^^^^^^^^^
-ImportError: Failed to import test module: test_register_project_tests
-Traceback (most recent call last):
-  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/loader.py", line 137, in loadTestsFromName
-    module = __import__(module_name)
-  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 4, in <module>
-    from uc3m_consulting import EnterpriseManager, EnterpriseManagementException
-  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/main/python/uc3m_consulting/__init__.py", line 4, in <module>
-    from .enterprise_manager import EnterpriseManager
-  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/main/python/uc3m_consulting/enterprise_manager.py", line 2, in <module>
-    from uc3m_consulting import EnterpriseManagementException
-ImportError: cannot import name 'EnterpriseManagementException' from partially initialized module 'uc3m_consulting' (most likely due to a circular import) (/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/main/python/uc3m_consulting/__init__.py)
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 41, in test_tc_1
+    result = manager.register_document(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/main/python/uc3m_consulting/enterprise_manager.py", line 17, in register_document
+    raise EnterpriseManagementException("Not implemented")
+    ^^^^^^^^^^^^^^^
+uc3m_consulting.enterprise_management_exception.EnterpriseManagementException: Not implemented
 
+======================================================================
+ERROR [0.002s]: test_tc_2 (test_register_project_tests.TestRegisterProject.test_tc_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 51, in test_tc_2
+    result = manager.register_document(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/main/python/uc3m_consulting/enterprise_manager.py", line 17, in register_document
+    raise EnterpriseManagementException("Not implemented")
+    ^^^^^^^^^^^^^^^
+uc3m_consulting.enterprise_management_exception.EnterpriseManagementException: Not implemented
+
+======================================================================
+ERROR [0.002s]: test_tc_3 (test_register_project_tests.TestRegisterProject.test_tc_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 651, in run
+    self._callTestMethod(testMethod)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/case.py", line 606, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/unittest/python/test_register_project_tests.py", line 61, in test_tc_3
+    result = manager.register_document(
+    ^^^^^^^^^^^^^^^
+  File "/Users/linusmunn/PycharmProjects/G87.2026.T15.GE2b/src/main/python/uc3m_consulting/enterprise_manager.py", line 17, in register_document
+    raise EnterpriseManagementException("Not implemented")
+    ^^^^^^^^^^^^^^^
+uc3m_consulting.enterprise_management_exception.EnterpriseManagementException: Not implemented
 
 ----------------------------------------------------------------------
-Ran 1 test in 0.008s
+Ran 69 tests in 0.225s
 
-FAILED (errors=1)
+FAILED (errors=3)
 
 Generating XML reports...
