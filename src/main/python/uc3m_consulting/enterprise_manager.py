@@ -25,4 +25,15 @@ class EnterpriseManager:
                     ) from exc
         except FileNotFoundError as exc:
             raise EnterpriseManagementException("Input file not found") from exc
+
+        if not isinstance(input_data, dict):
+            raise EnterpriseManagementException(
+                "JSON does not have the expected structure"
+            )
+
+        if "PROJECT_ID" not in input_data or "FILENAME" not in input_data:
+            raise EnterpriseManagementException(
+                "JSON does not have the expected structure"
+            )
+
         return input_data
