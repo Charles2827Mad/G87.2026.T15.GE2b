@@ -294,6 +294,36 @@ class TestRegisterProject(unittest.TestCase):
             '{\n  "PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",,\n  "FILENAME": "TstFile4.pdf"\n}'
         )
 
+    def test_TC36(self):
+        self._assert_invalid_case(
+            'desktop/register_document/duplication/tc36-invalid_pdf.json',
+            '{\n  "PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n  "FILENAME": "TstFile4.pdf", "FILENAME": "TstFile4.pdf"\n}'
+        )
+
+    def test_TC37(self):
+        self._assert_invalid_case(
+            'desktop/register_document/duplication/tc37-invalid_pdf.json',
+            '{\n  "PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n  ""FILENAME": "TstFile4.pdf"\n}'
+        )
+
+    def test_TC38(self):
+        self._assert_invalid_case(
+            'desktop/register_document/duplication/tc38-invalid_pdf.json',
+            '{\n  "PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n  "FILENAMEFILENAME": "TstFile4.pdf"\n}'
+        )
+
+    def test_TC39(self):
+        self._assert_invalid_case(
+            'desktop/register_document/duplication/tc39-invalid_pdf.json',
+            '{\n  "PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n  "FILENAME"": "TstFile4.pdf"\n}'
+        )
+
+    def test_TC40(self):
+        self._assert_invalid_case(
+            'desktop/register_document/duplication/tc40-invalid_pdf.json',
+            '{\n  "PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n  "FILENAME":: "TstFile4.pdf"\n}'
+        )
+
 
 
 if __name__ == '__main__':
