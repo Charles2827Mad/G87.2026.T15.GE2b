@@ -37,13 +37,34 @@ class TestRegisterProject(unittest.TestCase):
             manager.register_document(file_path)
 
     def test_tc_1(self):
-        pass
+        manager = EnterpriseManager()
+        result = manager.register_document(
+            "desktop/register_document/valid/tc1-valid_pdf.json"
+        )
+        self.assertEqual(
+            "3c296a4a2ebe42d02236ac7fa24f7156676ba60cc5ccc9309d3f2bd4f0b112ad",
+            result
+        )
 
     def test_tc_2(self):
-        pass
+        manager = EnterpriseManager()
+        result = manager.register_document(
+            "desktop/register_document/valid/tc2-valid_pdf.json"
+        )
+        self.assertEqual(
+            "14a957d0b6dd2235f404a6165cbd51329b54e55c40c0c71fd7d064e8b32142f9",
+            result
+        )
 
     def test_tc_3(self):
-        pass
+        manager = EnterpriseManager()
+        result = manager.register_document(
+            "desktop/register_document/valid/tc3-valid_pdf.json"
+        )
+        self.assertEqual(
+            "31d49ce57e610e2769b369f5b37428810a4d763d1238ca096f66eab5b0e0d7b8",
+            result
+        )
 
     def test_tc_4(self):
         self._assert_invalid_case(

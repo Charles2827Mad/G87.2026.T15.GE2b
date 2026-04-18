@@ -6,7 +6,7 @@ def show_sha256():
     """Function used to generate SHA-256 sample hashes for test cases."""
     obj = ProjectDocument(
         "a1b8c3d4e3f60148293a4b0c6d5e1f90",
-        "TstFile4.pdf"
+        "TstFile4.xlsx"
     )
     print(obj.document_signature)
 
