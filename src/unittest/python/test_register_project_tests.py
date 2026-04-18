@@ -54,149 +54,185 @@ class TestRegisterProject(unittest.TestCase):
         )
 
     def test_TC5(self):
-        manager = EnterpriseManager()
-
-        with self.assertRaises(EnterpriseManagementException):
-            manager.register_document(
-                "desktop/register_document/deletion/tc5-invalid_pdf.json"
-            )
+        self._assert_invalid_case(
+            "desktop/register_document/deletion/tc5-invalid_pdf.json",
+            '{\n'
+            ', "FILENAME": "TstFile4.pdf"\n'
+            '}'
+        )
 
     def test_TC6( self ):
-        manager = EnterpriseManager()
-
-        with self.assertRaises(EnterpriseManagementException):
-            manager.register_document(
-                "desktop/register_document/deletion/tc6-invalid_pdf.json"
-            )
+        self._assert_invalid_case(
+            "desktop/register_document/deletion/tc6-invalid_pdf.json",
+            '{\n'
+            'PROJECT_ID"": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n'
+            '"FILENAME": "TstFile4.pdf"\n'
+            '}'
+        )
 
     def test_TC7( self ):
-        manager = EnterpriseManager()
-
-        with self.assertRaises(EnterpriseManagementException):
-            manager.register_document(
-                "desktop/register_document/deletion/tc7-invalid_pdf.json"
-            )
+        self._assert_invalid_case(
+            "desktop/register_document/deletion/tc7-invalid_pdf.json",
+            '{\n'
+            '"": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n'
+            '"FILENAME": "TstFile4.pdf"\n'
+            '}'
+        )
 
     def test_TC8( self ):
-        manager = EnterpriseManager()
-
-        with self.assertRaises(EnterpriseManagementException):
-            manager.register_document(
-                "desktop/register_document/deletion/tc8-invalid_pdf.json"
-            )
+        self._assert_invalid_case(
+            "desktop/register_document/deletion/tc8-invalid_pdf.json",
+            '{\n'
+            '"PROJECT_ID: "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n'
+            '"FILENAME": "TstFile4.pdf"\n'
+            '}'
+        )
 
     def test_TC9( self ):
-        manager = EnterpriseManager()
-
-        with self.assertRaises(EnterpriseManagementException):
-            manager.register_document(
-                "desktop/register_document/deletion/tc9-invalid_pdf.json"
-            )
+        self._assert_invalid_case(
+            "desktop/register_document/deletion/tc9-invalid_pdf.json",
+            '{\n'
+            '"PROJECT_ID" "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n'
+            '"FILENAME": "TstFile4.pdf"\n'
+            '}'
+        )
 
     def test_TC10( self ):
-        manager = EnterpriseManager()
-
-        with self.assertRaises(EnterpriseManagementException):
-            manager.register_document(
-                "desktop/register_document/deletion/tc10-invalid_pdf.json"
-            )
+        self._assert_invalid_case(
+            "desktop/register_document/deletion/tc10-invalid_pdf.json",
+            '{\n'
+            '"PROJECT_ID": a1b8c3d4e3f60148293a4b0c6d5e1f90",\n'
+            '"FILENAME": "TstFile4.pdf"\n'
+            '}'
+        )
 
     def test_TC11( self ):
-        manager = EnterpriseManager()
-
-        with self.assertRaises(EnterpriseManagementException):
-            manager.register_document(
-                "desktop/register_document/deletion/tc11-invalid_pdf.json"
-            )
+        self._assert_invalid_case(
+            "desktop/register_document/deletion/tc11-invalid_pdf.json",
+            '{\n'
+            '"PROJECT_ID": "",\n'
+            '"FILENAME": "TstFile4.pdf"\n'
+            '}'
+        )
 
     def test_TC12(self):
-        manager = EnterpriseManager()
-
-        with self.assertRaises(EnterpriseManagementException):
-            manager.register_document(
-                "desktop/register_document/deletion/tc12-invalid_pdf.json"
-            )
+        self._assert_invalid_case(
+            "desktop/register_document/deletion/tc12-invalid_pdf.json",
+            '{\n'
+            '"PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90,\n'
+            '"FILENAME": "TstFile4.pdf"\n'
+            '}'
+        )
 
     def test_TC13(self):
-        manager = EnterpriseManager()
-
-        with self.assertRaises(EnterpriseManagementException):
-            manager.register_document(
-                "desktop/register_document/deletion/tc13-invalid_pdf.json"
-            )
+        self._assert_invalid_case(
+            "desktop/register_document/deletion/tc13-invalid_pdf.json",
+            '{\n'
+            '"PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90"\n'
+            '"FILENAME": "TstFile4.pdf"\n'
+            '}'
+        )
 
     def test_TC14(self):
-        manager = EnterpriseManager()
-
-        with self.assertRaises(EnterpriseManagementException):
-            manager.register_document(
-                "desktop/register_document/deletion/tc14-invalid_pdf.json"
-            )
+        self._assert_invalid_case(
+            "desktop/register_document/deletion/tc14-invalid_pdf.json",
+            '{\n'
+            '"PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n'
+            '}'
+        )
 
     def test_TC15(self):
-        manager = EnterpriseManager()
-
-        with self.assertRaises(EnterpriseManagementException):
-            manager.register_document(
-                "desktop/register_document/deletion/tc15-invalid_pdf.json"
-            )
+        self._assert_invalid_case(
+            "desktop/register_document/deletion/tc15-invalid_pdf.json",
+            '{\n'
+            '"PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n'
+            'FILENAME"": "TstFile4.pdf"\n'
+            '}'
+        )
 
     def test_TC16(self):
-        manager = EnterpriseManager()
-
-        with self.assertRaises(EnterpriseManagementException):
-            manager.register_document(
-                "desktop/register_document/deletion/tc16-invalid_pdf.json"
-            )
+        self._assert_invalid_case(
+            "desktop/register_document/deletion/tc16-invalid_pdf.json",
+            '{\n'
+            '"PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n'
+            '"": "TstFile4.pdf"\n'
+            '}'
+        )
 
     def test_TC17(self):
-        manager = EnterpriseManager()
-
-        with self.assertRaises(EnterpriseManagementException):
-            manager.register_document(
-                "desktop/register_document/deletion/tc17-invalid_pdf.json"
-            )
+        self._assert_invalid_case(
+            "desktop/register_document/deletion/tc17-invalid_pdf.json",
+            '{\n'
+            '"PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n'
+            '"FILENAME: "TstFile4.pdf"\n'
+            '}'
+        )
 
     def test_TC18(self):
-        manager = EnterpriseManager()
-
-        with self.assertRaises(EnterpriseManagementException):
-            manager.register_document(
-                "desktop/register_document/deletion/tc18-invalid_pdf.json"
-            )
+        self._assert_invalid_case(
+            "desktop/register_document/deletion/tc18-invalid_pdf.json",
+            '{\n'
+            '"PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n'
+            '"FILENAME" "TstFile4.pdf"\n'
+            '}'
+        )
 
     def test_TC19(self):
-        manager = EnterpriseManager()
-
-        with self.assertRaises(EnterpriseManagementException):
-            manager.register_document(
-                "desktop/register_document/deletion/tc19-invalid_pdf.json"
-            )
+        self._assert_invalid_case(
+            "desktop/register_document/deletion/tc19-invalid_pdf.json",
+            '{\n'
+            '"PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n'
+            '"FILENAME": TstFile4.pdf"\n'
+            '}'
+        )
 
     def test_TC20(self):
-        manager = EnterpriseManager()
-
-        with self.assertRaises(EnterpriseManagementException):
-            manager.register_document(
-                "desktop/register_document/deletion/tc20-invalid_pdf.json"
-            )
+        self._assert_invalid_case(
+            "desktop/register_document/deletion/tc20-invalid_pdf.json",
+            '{\n'
+            '"PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n'
+            '"FILENAME": ".pdf"\n'
+            '}'
+        )
 
     def test_TC21(self):
-        manager = EnterpriseManager()
-
-        with self.assertRaises(EnterpriseManagementException):
-            manager.register_document(
-                "desktop/register_document/deletion/tc21-invalid_pdf.json"
-            )
+        self._assert_invalid_case(
+            "desktop/register_document/deletion/tc21-invalid_pdf.json",
+            '{\n'
+            '"PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n'
+            '"FILENAME": "TstFile4"\n'
+            '}'
+        )
 
     def test_TC22(self):
-        manager = EnterpriseManager()
+        self._assert_invalid_case(
+            "desktop/register_document/deletion/tc22-invalid_pdf.json",
+            '{\n'
+            '"PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n'
+            '"FILENAME": "TstFile4.pdf\n'
+            '}'
+        )
 
-        with self.assertRaises(EnterpriseManagementException):
-            manager.register_document(
-                "desktop/register_document/deletion/tc22-invalid_pdf.json"
-            )
+    def test_TC23(self):
+        self._assert_invalid_case(
+            "desktop/register_document/deletion/tc23-invalid_pdf.json",
+            '{\n'
+            '"PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n'
+            '"FILENAME": "TstFile4.pdf"\n'
+        )
 
+    def test_TC24(self):
+        self._assert_invalid_case(
+            "desktop/register_document/deletion/tc24-invalid_pdf.json",
+            '{\n'
+            '}\n'
+        )
+
+    def test_TC25(self):
+        self._assert_invalid_case(
+            "desktop/register_document/deletion/tc25-invalid_pdf.json",
+            ''
+        )
 
 if __name__ == '__main__':
     unittest.main()
