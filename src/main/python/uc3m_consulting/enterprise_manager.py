@@ -1,4 +1,5 @@
 """Module """
+import json
 from uc3m_consulting.enterprise_management_exception import EnterpriseManagementException
 
 class EnterpriseManager:
@@ -16,6 +17,12 @@ class EnterpriseManager:
     def register_document(input_file: str):
         try:
             with open(input_file, "r", encoding="utf-8") as file:
-                return file.read()
+                try:
+                    input_data = json.load(file)
+                except json.JSONDecodeError as exc:
+                    raise EnterpriseManagementException(
+                        "The file is not JSON formatted"
+                    ) from exc
         except FileNotFoundError as exc:
             raise EnterpriseManagementException("Input file not found") from exc
+        return input_data
