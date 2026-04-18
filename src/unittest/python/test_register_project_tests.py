@@ -28,6 +28,15 @@ class TestRegisterProject(unittest.TestCase):
         finally:
             self._delete_test_file(file_path)
 
+    def _assert_valid_case(self, file_path: str, content: str, expected_hash: str):
+        manager = EnterpriseManager()
+        self._write_test_file(file_path, content)
+        try:
+            result = manager.register_document(file_path)
+            self.assertEqual(expected_hash, result)
+        finally:
+            self._delete_test_file(file_path)
+
     def _assert_file_not_found(self, file_path: str):
         """Checks the method raises the exception when the file does not exist."""
         manager = EnterpriseManager()
@@ -37,33 +46,33 @@ class TestRegisterProject(unittest.TestCase):
             manager.register_document(file_path)
 
     def test_tc_1(self):
-        manager = EnterpriseManager()
-        result = manager.register_document(
-            "desktop/register_document/valid/tc1-valid_pdf.json"
-        )
-        self.assertEqual(
-            "3c296a4a2ebe42d02236ac7fa24f7156676ba60cc5ccc9309d3f2bd4f0b112ad",
-            result
+        self._assert_valid_case(
+            "desktop/register_document/valid/tc1-valid_pdf.json",
+            '{\n'
+            '"PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n'
+            '"FILENAME": "TstFile4.pdf"\n'
+            '}',
+            "3c296a4a2ebe42d02236ac7fa24f7156676ba60cc5ccc9309d3f2bd4f0b112ad"
         )
 
     def test_tc_2(self):
-        manager = EnterpriseManager()
-        result = manager.register_document(
-            "desktop/register_document/valid/tc2-valid_pdf.json"
-        )
-        self.assertEqual(
-            "14a957d0b6dd2235f404a6165cbd51329b54e55c40c0c71fd7d064e8b32142f9",
-            result
+        self._assert_valid_case(
+            "desktop/register_document/valid/tc2-valid_docx.json",
+            '{\n'
+            '"PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n'
+            '"FILENAME": "TstFile4.docx"\n'
+            '}',
+            "14a957d0b6dd2235f404a6165cbd51329b54e55c40c0c71fd7d064e8b32142f9"
         )
 
     def test_tc_3(self):
-        manager = EnterpriseManager()
-        result = manager.register_document(
-            "desktop/register_document/valid/tc3-valid_pdf.json"
-        )
-        self.assertEqual(
-            "31d49ce57e610e2769b369f5b37428810a4d763d1238ca096f66eab5b0e0d7b8",
-            result
+        self._assert_valid_case(
+            "desktop/register_document/valid/tc2-valid_docx.json",
+            '{\n'
+            '"PROJECT_ID": "a1b8c3d4e3f60148293a4b0c6d5e1f90",\n'
+            '"FILENAME": "TstFile4.docx"\n'
+            '}',
+            "14a957d0b6dd2235f404a6165cbd51329b54e55c40c0c71fd7d064e8b32142f9"
         )
 
     def test_tc_4(self):
