@@ -1,4 +1,4 @@
-"""class for testing the regsiter_order method"""
+"""class for testing the register_order method"""
 import unittest
 from uc3m_consulting import EnterpriseManager
 
