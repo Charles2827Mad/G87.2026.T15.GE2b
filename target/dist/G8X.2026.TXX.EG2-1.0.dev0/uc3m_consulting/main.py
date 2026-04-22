@@ -1,6 +1,6 @@
 """main.py, used to test and generate sample hashes
 to compare against valid test cases"""
-from project_document import ProjectDocument
+from uc3m_consulting.project_document import ProjectDocument
 from freezegun import freeze_time
 
 @freeze_time("2024-01-28")
