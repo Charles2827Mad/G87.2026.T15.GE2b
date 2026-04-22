@@ -21,12 +21,13 @@ class EnterpriseManager:
 
     @staticmethod
     def validate_cif(cif: str):
-        """RETURNs TRUE IF THE IBAN RECEIVED IS VALID SPANISH IBAN,
+        """Returns TRUE IF THE IBAN RECEIVED IS VALID SPANISH IBAN,
         OR FALSE IN OTHER CASE"""
         return True
 
     @staticmethod
     def register_document(input_file: str):
+        """Method to register a document, returning the signature if successful."""
         try:
             with open(input_file, "r", encoding="utf-8") as file:
                 try:
